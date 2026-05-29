@@ -1,0 +1,28 @@
+# ── Core ──────────────────────────────────────────────────────────────────────
+torch>=2.1.0
+torchvision>=0.16.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# ── Medical Imaging ───────────────────────────────────────────────────────────
+nibabel>=5.1.0          # NIfTI file I/O
+SimpleITK>=2.3.0        # SRI24 atlas registration
+hd-bet                  # Skull-stripping (HD-BET)
+
+# ── Image Processing ──────────────────────────────────────────────────────────
+opencv-python>=4.8.0    # CLAHE contrast enhancement
+scikit-image>=0.21.0    # SSIM, HD95
+
+# ── Evaluation ────────────────────────────────────────────────────────────────
+scikit-learn>=1.3.0
+medpy>=0.4.0            # Hausdorff Distance (HD95)
+
+# ── Visualisation & Reporting ─────────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+tqdm>=4.65.0
+
+# ── Config & Utilities ────────────────────────────────────────────────────────
+pyyaml>=6.0
+tensorboard>=2.14.0
